@@ -1,0 +1,12 @@
+{
+  "name": "decrypher-app",
+  "version": "1.0.0",
+  "description": "Servidor Node.js que descifra contenido con RSA y expone /login y /decrypher",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0"
+  }
+}
